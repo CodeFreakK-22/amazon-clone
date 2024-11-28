@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    padding: 9px 36px;
+    background: linear-gradient(140.41deg, #003d32, #008152);
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 44px;
+}
+
+.nav-logo img{
+    height: 142px;
+    position: relative;
+    right: 44px;
+    filter: invert();
+    top: 4px;
+}
+
+.country-location svg{
+    filter: invert();
+    width: 17px;
+}
+
+.country-location{
+    display: flex;
+    white-space: pre-line;
+    align-items: center;
+    text-align: start;
+    font-family: Poppins;
+    margin: 0 -45px;
+    line-height: 1;
+    gap: 2px;
+}
+
+.grey-text{
+    color: rgb(187, 187, 187);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.bold-white-text{
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.search-container{
+    flex:1;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: grey;
+    max-width: 900px;
+    border-radius: 4px;
+    margin-left: 58px;
+    height: 41px;
+}
+
+.filter{
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    padding: 10px 9px;
+    gap: 7px;
+    background-color: #e5e5e5;
+    border-radius: 4px 0 0 4px;
+}
+
+.nav-search-input{
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    width: 100%;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.nav-search-icon{
+    max-width: 41px;
+    padding: 0 3px;
+    background: rgb(175, 44, 114);
+    border-radius: 0 4px 4px 0;
+}
+
+.language{
+    display: flex;
+    align-items: center;
+    padding: 15px 9px;
+    margin-left: 11px;
+    font-family: "Poppins";
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    gap: 7px;
+}
+
+.language svg{
+    height: 14px;
+    filter: brightness(2.5);
+}
+
+
+.language:hover{
+    border: 1px solid white;
+}
+.country-logo{
+    height: 14px;
+}
+
+.sign-in{
+    display: flex;
+align-items: center;
+}
+
+.sign-in svg{
+    height: 14px;
+    filter: brightness(2.5);
+}
+
+.sign-in {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    line-height: 1.2;
+    margin-left: 11px;
+    margin-left: 3px;
+    padding: 10px 5px;
+}
+
+.sign-in:hover{
+    border: 1px solid white;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.down-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 4px; /* Space between text and SVG */
+}
+
+.up{
+    color: white;
+    font-family: poppins;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.down{
+    color: white;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 700;
+}
