@@ -95,7 +95,7 @@
     display: flex;
     align-items: center;
     padding: 15px 9px;
-    margin-left: 11px;
+    margin-left: 3px;
     font-family: "Poppins";
     color: white;
     font-size: 14px;
@@ -163,4 +163,48 @@ align-items: center;
     font-family: poppins;
     font-size: 14px;
     font-weight: 700;
+}
+
+.return-order{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+    line-height: 1.2;
+    padding: 10px 5px;
+}
+
+.up-2{
+    color: white;
+    font-family: poppins;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.down-2{
+    color: white;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.return-order:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.cart{
+    display: flex;
+    margin-left: 12px;
+    align-items: center;
+}
+
+.cart p{
+    margin-top: 19px;
+    font-family: poppins;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}
+.cart svg{
+height: 36px;
 }
