@@ -208,3 +208,26 @@ align-items: center;
 .cart svg{
 height: 36px;
 }
+
+.nav-bottom div img{
+    position: relative;
+    z-index: 1;
+}
+
+.nav-bottom{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 8px 20px;
+    background-color: #095749;
+    color: white;
+    font-size: 14px;
+}
+
+.nav-bottom div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 700;
+    font-family: Poppins;
+}
